@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.Caching" Version="4.5.0" />
+    <PackageReference Include="Unity.Configuration" Version="5.2.3" />
+    <PackageReference Include="Unity.Microsoft.DependencyInjection" Version="2.0.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\boot\boot.csproj" />
+  </ItemGroup>
+</Project>
